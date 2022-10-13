@@ -1,9 +1,7 @@
 # Bem vindo à DEVinHouse <img width="180px" alt="Philips" src="imagens/logo-phil.png"/>
- 
-Eu desenvolvi um site para a elaboração dos 10 exercícios referentes a segunda semana do módulo 1. <br/>
+## Módulo 01 - Semana 02
 
----
-
+Eu desenvolvi um site para a elaboração dos 10 exercícios referentes a essa semana. <br>
 Você pode acessar a página dos exercícios e suas conclusões
 <a href="https://georgeenriquebravo.github.io/DEVinHouse-Modulo01-Semana02
 /" target="_blank">
