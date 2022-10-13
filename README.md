@@ -1,14 +1,9 @@
 # Bem vindo à DEVinHouse <img width="180px" alt="Philips" src="imagens/logo-phil.png"/>
- 
-Eu desenvolvi um site para a elaboração dos 12 exercícios referentes a primeira semana do módulo 1. <br/>
-<a href="https://github.com/GeorgeEnriqueBravo/DEVinHouse-Semana1/blob/main/M%C3%B3dulo%201%20-%20Semana%2001%20-%20Exerc%C3%ADcios.pdf" target="_blank">
-    Clique aqui
-</a> para ver a lista dos exercícios.
+## Módulo 01 - Semana 02
 
----
-
-Você pode acessar a página do meu exercício
-<a href="https://georgeenriquebravo.github.io/DEVinHouse-Modulo01-Semana01
+Eu desenvolvi um site para a elaboração dos 10 exercícios referentes a essa semana. <br>
+Você pode acessar a página dos exercícios e suas conclusões
+<a href="https://georgeenriquebravo.github.io/DEVinHouse-Modulo01-Semana02
 /" target="_blank">
     clicando aqui
 </a>
@@ -33,5 +28,5 @@ Nos exercícios dessa semana foram utilizadas as seguintes tecnologias:
 <div style="display: inline_block">
     <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
     <img align="center" alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-    <img align="center" alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+    <img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div>
