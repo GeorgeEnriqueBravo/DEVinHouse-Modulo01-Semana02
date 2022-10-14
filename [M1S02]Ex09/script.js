@@ -1,6 +1,20 @@
 function carregar() {
-    let inicio = Number(window.prompt("Digite um valor inicial: "))
-    let raiz = Number(window.prompt("Digite um valor para raiz "))
+    let inicio;
+    let raiz;
+
+    do {
+        inicio = Number(window.prompt("Digite um valor inicial: "))
+        if (isNaN(inicio)) {
+            window.alert("Desculpe, valor inválido!")
+        }
+    } while (isNaN(inicio))
+    do {
+        raiz = Number(window.prompt("Digite um valor para raiz "))
+        if (isNaN(inicio)) {
+            window.alert("Desculpe, valor inválido!")
+        }
+    } while (isNaN(raiz))
+
     let soma = inicio
     let resAlert = ""
 

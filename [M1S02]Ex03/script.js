@@ -1,5 +1,13 @@
 function carregar() {
-    let num = Number(window.prompt("Digite um número para fazer sua tabuada: "))
+let num;
+
+    do {
+        num = Number(window.prompt("Digite um número para fazer sua tabuada: "))
+        if (isNaN(num)) {
+            window.alert("Por favor digite um número válido")
+        }
+    } while (isNaN(num))
+    
     let res = window.document.getElementById("res")
     let txt = ""
 

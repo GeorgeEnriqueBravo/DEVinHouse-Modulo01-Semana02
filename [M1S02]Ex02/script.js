@@ -3,17 +3,21 @@ function carregar() {
 
     var res = window.document.getElementById("res")
 
-    if (idade <= 15) {
+    if (isNaN(idade)) {
+        window.alert("Idade inválida")
+        res.innerHTML = `Desculpe, você digitou uma idade inválida.`
+    } else if (idade <= 15) {
         window.alert("Você é jovem!")
-    var classi = "jovem"
+        var classi = "jovem"
+        res.innerHTML = `Você possui ${idade} anos de idade e é ${classi}.`
     } else if (idade <= 64) {
         window.alert("Você é adulto!")
-    var classi = "adulto"
+        var classi = "adulto"
+        res.innerHTML = `Você possui ${idade} anos de idade e é ${classi}.`
     } else if (idade >= 65) {
         window.alert("Você já é idoso!")
-    var classi = "idoso"
+        var classi = "idoso"
+        res.innerHTML = `Você possui ${idade} anos de idade e é ${classi}.`
     }
-
-res.innerHTML = `Você possui ${idade} anos de idade e é ${classi}.`
 }
 
