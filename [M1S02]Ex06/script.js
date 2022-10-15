@@ -3,21 +3,6 @@ do {
     calc = (window.prompt("Qual o calculo que você deseja fazer? ( + , - , * ou / )"))
 } while ((calc !== "+") && (calc !== "-") && (calc !== "*") && (calc !== "/"))
 
-/*
-let valor1 = Number(window.prompt("Digite o primeiro número: "))
-let valor2 = Number(window.prompt("Digite o segundo número: "))
-
-while (isNaN(valor1) || (isNaN(valor2))) {
-    if (isNaN(valor1) && (isNaN(valor2))) {
-        valor1 = Number(window.prompt("Digite o primeiro número: "))
-        valor2 = Number(window.prompt("Digite o segundo número: "))
-    } else if (isNaN(valor1)) {
-        valor1 = Number(window.prompt("Digite o primeiro número: "))
-    } else {
-        valor2 = Number(window.prompt("Digite o segundo número: "))
-    }
-}
-*/
 let valor1;
 let valor2;
 
